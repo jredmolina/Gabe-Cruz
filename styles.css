@@ -1,0 +1,287 @@
+
+@font-face {
+    font-family: inconsolata;
+    src: url(font/Inconsolata-VariableFont_wdth\,wght.ttf);
+}
+
+body{
+    background-color: #FFFFFF;
+    font-family:  inconsolata;
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    margin-top: 60px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+
+/* MENU */
+.menu{
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+    list-style: none;  
+    justify-content: center;
+    margin: 0px;
+}
+.navElement{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 34px;
+    text-decoration: none; 
+    color: #ACACAC;  
+}
+
+.navElementSelected{
+    color:#000000;
+}
+
+.intro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.introText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+}
+
+.introSubText{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px; 
+    margin: 0px;
+}
+
+.introNameText{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #000000;
+    margin: 0px;
+}
+
+.writer{
+    font-size: 45px;
+    color:#787373;
+}
+#gabeHomePhoto{
+    
+    width: 450px;
+    height: auto;
+}
+
+/* CURRENT WORKS */
+.currentWorks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+
+.currentWorksGuide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.currentWorksGuideText{
+    color: #676666;
+
+}
+.currentlyWorking{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 84.4%;
+    text-align: center;
+    color: #676666;
+}
+#down{
+    width: 60px;
+    height: 27px;
+    color: #676666;
+}
+
+.currentWorkTitle{
+    margin:0px;
+}
+
+.currentWorkContent{
+    background-color: #000000;
+    margin: 40px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#currentWorkText{
+    margin:0px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+    color:#FFFFFF;
+}
+
+/*FOOTER*/
+.footer{
+    margin:0px;
+
+}
+
+
+
+
+/* ABOUT PAGE */
+ 
+#aboutPhoto{
+    width: 357px;
+    height: 601px;
+    border: 3px solid #000000;
+    box-shadow: -22px 16px 10px -8px rgba(0, 0, 0, 0.35);
+    border-radius: 76px;
+}
+
+.aboutContent{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.aboutText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+.aboutHeader{
+    font-weight: 600;
+    font-size: 48px;
+    margin: 0;
+}
+
+.aboutBio{
+    font-size: 25px;
+    line-height: 108.9%;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* or 39px */
+    text-align: center;
+    letter-spacing: -0.015em;
+    
+    color: #000000;
+}
+
+/* PORTFOLIO */
+
+.fiction{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: 800;
+    font-size: 48px;
+    margin-bottom: 20px;;
+
+  }
+  
+  /* To show the lines on right 
+  and left sides of the text */
+  .divider::after,
+  .divider::before {
+    content: "";
+    border: 1px solid black;
+    flex: 1;
+  }
+  
+  /* Space on left and right sides of text */
+  .divider:not(:empty)::before {
+    margin-right: 0.5em;
+  }
+  
+  .divider:not(:empty)::after {
+    margin-left: 0.5em;
+  }
+
+  .articles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+  }
+  .articleImage{
+    width: auto;
+    height: 231.84px;
+    border-radius: 22px;
+  }
+
+  .clientContacts{
+    display: flex;
+    gap: 100px;
+  }
+
+  .emailForms{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  input{
+    border: #676666 solid 1.5px;
+    background-color: #EEECEC;
+    height: 35px;
+    width: 300px;
+    border-radius: 10px;
+
+  }
+  
+  textarea {
+    border: #676666 solid 1.5px;
+    background-color: #EEECEC;
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  .contactPage{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 60px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+button{
+    color:white;
+    background-color: black;
+    font-weight: 800;
+    width: 200px;
+    height: 50px;
+}
